@@ -76,8 +76,8 @@ export default function Page() {
               </div>
               <div className="md:w-1/3">
                 <Image
-                  src="/placeholder.svg?height=400&width=400"
-                  alt="John Doe"
+                  src="/me.jpg?height=400&width=400"
+                  alt="Ryuto"
                   width={400}
                   height={400}
                   className="rounded-full border-4 border-white shadow-lg"
@@ -96,13 +96,13 @@ export default function Page() {
               <SkillCard
                 title="Frontend Development"
                 description="最新の Web テクノロジーを使用して、応答性が高く直感的なUIを作成します。"
-                image="/placeholder.svg?height=200&width=200"
+                image="/frontendLang.png?height=200&width=200"
                 skills={["React", "Next.js", "TypeScript", "TailwindCSS"]}
               />
               <SkillCard
                 title="Backend Development"
                 description="堅牢でスケーラブルなサーバーサイドアプリケーションと API を構築します。"
-                image="/placeholder.svg?height=200&width=200"
+                image="/backendLang.png?height=200&width=200"
                 skills={["Python", "Django", "TypeScript", "PostgreSQL"]}
               />
               <SkillCard
@@ -132,14 +132,14 @@ export default function Page() {
                 title="Dream Step"
                 description="PR TIMES主催のハッカソンに参加。テーマは『夢』で、開発したものは、誰もが抱える漠然として夢を、生成AIと一緒に具体化して
                 実現を可能にしていくWebアプリケーション『Dream Step』を開発した"
-                image="/placeholder.svg?height=300&width=400"
+                image="/DayDream.png"
                 link="https://github.com/05ryt31/dream_step"
                 tags={["Gemini API", "React", "TypeScript", "TypeScript"]}
               />
               <ProjectCard
                 title="Engineer Guild Hackathon"
                 description="環境問題をテーマとして、フードロス問題の解決策となりうるアプリケーションの開発を行なった。"
-                image="/placeholder.svg?height=300&width=400"
+                image="/hackathon.png?height=300&width=400"
                 link="https://github.com/05ryt31/Hackathon-team47"
                 tags={["Azure OpenAI", "Google Map API", "Next.js", "TypeScript", "TailwindCSS", "Postgres", "Prisma"]}
               />
@@ -166,25 +166,25 @@ export default function Page() {
                 year={2020.04}
                 title="滋賀県立彦根東高校に入学"
                 description="Led a team of developers working on cutting-edge web applications and mentored junior developers."
-                image="/placeholder.svg?height=300&width=400"
+                image="/highschool.jpg?height=300&width=400"
               />
               <LifeEvent 
                 year={2023.03}
                 title="彦根東高校卒業"
                 description="Specialized in creating responsive, accessible user interfaces with modern JavaScript frameworks."
-                image="/placeholder.svg?height=300&width=400"
+                image="/highschool2.jpg?height=300&width=400"
               />
               <LifeEvent 
                 year={2023.08}
                 title="カリフォルニア州にあるDiablo Valley Collegeに入学"
                 description="Earned Bachelor's degree with honors, focusing on web technologies and software engineering."
-                image="/placeholder.svg?height=300&width=400"
+                image="/dvc.jpg?height=300&width=400"
               />
               <LifeEvent 
                 year={2024.12}
                 title="ダイアモンドヘッド株式会社で初インターン"
                 description="Earned Bachelor's degree with honors, focusing on web technologies and software engineering."
-                image="/placeholder.svg?height=300&width=400"
+                image="/intern01.png?height=300&width=400"
               />
               <LifeEvent 
                 year={2025.02}
@@ -217,14 +217,6 @@ export default function Page() {
       <footer className="border-t bg-blue-50 dark:bg-blue-950">
         <div className="container flex flex-col gap-2 sm:flex-row py-6 w-full shrink-0 items-center px-4 md:px-6">
           <p className="text-xs text-blue-700 dark:text-blue-300">© 2025 All rights reserved.</p>
-          <nav className="sm:ml-auto flex gap-4 sm:gap-6">
-            <Link className="text-xs text-blue-700 dark:text-blue-300 hover:underline underline-offset-4" href="#">
-              Terms of Service
-            </Link>
-            <Link className="text-xs text-blue-700 dark:text-blue-300 hover:underline underline-offset-4" href="#">
-              Privacy
-            </Link>
-          </nav>
         </div>
       </footer>
     </div>
