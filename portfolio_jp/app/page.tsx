@@ -108,7 +108,7 @@ export default function Page() {
               <SkillCard
                 title="Coming Soon.."
                 description=""
-                image="null"
+                image="/white.jpg?height=200&width=200"
                 skills={[]}
               />
             </div>
