@@ -43,8 +43,6 @@ yarn.lock
 # Jest coverage
 coverage/
 
-# Next.js static file folder
-public/
 
 # Optional npm cache directory
 .npm/
