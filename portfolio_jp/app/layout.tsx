@@ -3,13 +3,13 @@ import { cn } from "@/lib/utils"
 import type { Metadata } from "next"
 import { Inter } from "next/font/google"
 import "./globals.css"
-import type React from "react" // Import React
+import type React from "react"
 
 const inter = Inter({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
-  title: "John.dev - Full Stack Developer",
-  description: "Full stack developer portfolio showcasing projects and skills",
+  title: "Portfolio | Ryuto",
+  description: "Ryuto's portfolio showcasing projects and skills",
     generator: 'v0.dev'
 }
 
