@@ -36,7 +36,7 @@ export default function Page() {
       </header>
 
       <main className="container px-4 md:px-6">
-        <section id="about" className="py-12 md:py-24 lg:py-32 gradient-bg text-white rounded-b-3xl">
+        <section id="about" className="py-12 md:py-24 lg:py-32 gradient-bg text-white rounded-3xl">
           <div className="container px-4 md:px-6">
             <div className="flex flex-col md:flex-row items-center justify-between space-y-8 md:space-y-0 md:space-x-12">
               <div className="flex flex-col items-center md:items-start space-y-4 text-center md:text-left md:w-2/3">
@@ -45,7 +45,7 @@ export default function Page() {
                 </h1>
                 <p className="max-w-[700px] text-blue-100 md:text-xl">
                 現代のテクノロジーを駆使して、社会の課題の解決策を見つけ出し、<br /> 
-                世の中に貢献していくことに重きを置いています。
+                未来の社会への貢献を実現していくことを目指しています。
                 </p>
                 <div className="flex space-x-4">
                   <Link href="https://github.com/05ryt31" target="_blank">
@@ -101,7 +101,7 @@ export default function Page() {
               />
               <SkillCard
                 title="Backend Development"
-                description="堅牢でスケーラブルなサーバーサイドアプリケーションと API を構築します。"
+                description="堅牢でスケーラブルなサーバーサイドアプリケーション、 API を構築します。"
                 image="/backendLang.png?height=200&width=200"
                 skills={["Python", "Django", "TypeScript", "PostgreSQL"]}
               />
@@ -122,23 +122,24 @@ export default function Page() {
             </h2>
             <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
               <ProjectCard
-                title="E-commerce Platform"
-                description="A full-stack e-commerce platform built with Next.js, Prisma, and Stripe integration."
-                image="/placeholder.svg?height=300&width=400"
-                link="https://github.com"
-                tags={["Next.js", "Prisma", "Stripe"]}
+                title="Internship @Public Technologies"
+                description="株式会社パブリックテクノロジーズでフルスタックエンジニアとして、長期インターンシップに挑戦しています。
+                使用技術としては、Next.js, React, TypeScript(tRPC), PrismaやPython(Fast API)などを使用しています。"
+                image="/pubtech.jpg?height=300&width=400"
+                link="https://github.com/05ryt31"
+                tags={["Next.js", "React", "TypeScript", "Prisma"]}
               />
               <ProjectCard
                 title="Dream Step"
                 description="PR TIMES主催のハッカソンに参加。テーマは『夢』で、開発したものは、誰もが抱える漠然として夢を、生成AIと一緒に具体化して
-                実現を可能にしていくWebアプリケーション『Dream Step』を開発した"
+                実現を可能にしていくWebアプリケーション『Dream Step』を開発しました。"
                 image="/DayDream.png"
                 link="https://github.com/05ryt31/dream_step"
                 tags={["Gemini API", "React", "TypeScript", "TypeScript"]}
               />
               <ProjectCard
                 title="Engineer Guild Hackathon"
-                description="環境問題をテーマとして、フードロス問題の解決策となりうるアプリケーションの開発を行なった。"
+                description="環境問題をテーマとして、フードロス問題の解決策となりうるアプリケーションの開発を行いました。現在も継続開発中です。"
                 image="/hackathon.png?height=300&width=400"
                 link="https://github.com/05ryt31/Hackathon-team47"
                 tags={["Azure OpenAI", "Google Map API", "Next.js", "TypeScript", "TailwindCSS", "Postgres", "Prisma"]}
@@ -165,38 +166,54 @@ export default function Page() {
               <LifeEvent 
                 year={2020.04}
                 title="滋賀県立彦根東高校に入学"
-                description="Led a team of developers working on cutting-edge web applications and mentored junior developers."
+                description="高校受験に合格して、第一志望だった彦根東高校に入学しました。
+                彦根城の内堀と中堀に挟まれた旧彦根藩家老屋敷跡にある彦根東高校は、彦根藩藩校以来の200年以上の歴史ある学校です。高校ではバスケ部に入り、彦根東が長年掲げてきた学業とスポーツの両立”文武両道”を
+                体現することに日々励んでいました。"
                 image="/highschool.jpg?height=300&width=400"
               />
               <LifeEvent 
                 year={2023.03}
                 title="彦根東高校卒業"
-                description="Specialized in creating responsive, accessible user interfaces with modern JavaScript frameworks."
+                description="受験期間中は、塾に友人たちと毎日こもって、12時間を超えるほど勉強をコンスタントに行っていました。現役時代、当時第一志望だった名古屋大学の情報学部を目指して受験もしましたが、
+                結果的にはあと10点足りずに不合格となってしまいました。しかし、これまでの頑張って積み重ねてきた努力は無駄にはならないという自信もあったので、
+                その後の進路に向けて新たな目標を見つけ、この彦根東高校を卒業することができました。"
                 image="/highschool2.jpg?height=300&width=400"
               />
               <LifeEvent 
                 year={2023.08}
                 title="カリフォルニア州にあるDiablo Valley Collegeに入学"
-                description="Earned Bachelor's degree with honors, focusing on web technologies and software engineering."
+                description="受験は、前期試験のほかに私立大学や後期試験は特に受けていなかったので浪人をする考えがありましたが、
+                自分が将来本当にやりたいことを真剣に考えた時に、小さい頃からスティーブ・ジョブズとAppleに憧れを抱いて、
+                アメリカでエンジニアとして働きたいという夢が強かったこともあったので、日本の大学を目指す道を諦め、夢に一歩でも近づくために
+                直接アメリカの大学に行ってコンピュータサイエンスを学ぼうと決意しました。そして、
+                カリフォルニア州にあるDiablo Valley Collegeに入学しました。この学校は、アメリカのコミュニティカレッジの一つで、
+                四年生大学への編入プログラムを提供している学校です。この学校では、コンピュータサイエンスを専攻し、Associate degreeの取得をしました。
+                カレッジ時代には、学内のクラブ活動に積極的に参加していました。Japanese Associationという日本人団体のメンバーとして、新しく入ってくる新入生のサポートやイベントの運営にも
+                携わっていました。中でも、当時同じ選考を学んでいた友人たちと共に、団体を紹介するWebサイトをチーム開発で作るというプロジェクトを立ち上げ、
+                リーダーとしてメンバーを率いた経験は、今後のリーダーシップを発揮する上で大きな経験となりました。"
                 image="/dvc.jpg?height=300&width=400"
               />
               <LifeEvent 
                 year={2024.12}
                 title="ダイアモンドヘッド株式会社で初インターン"
-                description="Earned Bachelor's degree with honors, focusing on web technologies and software engineering."
+                description="会社の都合上、4週間という短期のインターンにはなってしまいましたが、初めてのインターンを経験し、バックエンドエンジニアとして、
+                自社ECサイトの開発に携わりました。メンターさんが中国出身だったこともあり、普段から英語でミーティングをしたり、業務のやり取りをしていました。
+                この経験を通して、普段の学校の授業では学べないような経験や知識を得られることができ、非常に貴重な経験となりました。"
                 image="/intern01.png?height=300&width=400"
               />
               <LifeEvent 
                 year={2025.02}
-                title="株式会社Public Technologies フルスタックエンジニアとしてフルタイムのインターン"
-                description="Earned Bachelor's degree with honors, focusing on web technologies and software engineering."
-                image="/placeholder.svg?height=300&width=400"
+                title="株式会社Public Technologies フルスタックエンジニアとしてフルタイムインターン"
+                description="初の長期インターンに挑戦することになり、今回はフロントエンド、バックエンド関係なく、様々な最新技術を使いながら自社Webアプリーケーションの開発をしています。
+                インターン生ながらも、色々なミーティングに参加して自分の意見をしっかりと主張してチームの中での貢献をしていくことや、積極的に難易度の高いタスクを引き受け、自分の成長に繋げることを心がけています。"
+                image="/pubtech.jpg?height=300&width=400"
               />
               <LifeEvent 
                 year={2025.08}
                 title="San Jose State Universityに入学予定"
-                description="Earned Bachelor's degree with honors, focusing on web technologies and software engineering."
-                image="/placeholder.svg?height=300&width=400"
+                description="アメリカのシリコンバレーの中心にあるサンノゼ州立大学。この大学でBachelor degreeの取得を目指して、コンピュータサイエンス専攻として引き続き学業に専念することを予定しています。 
+                クラブ活動を活発に行ったり、学外ではHackathonやTech Conferenceに参加したいと考えています。"
+                image="/sanjose.jpg?height=300&width=400"
               />
             </div>
           </div>
