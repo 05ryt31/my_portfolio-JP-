@@ -1,5 +1,5 @@
 import { Button } from "@/components/ui/button"
-import { Github, Linkedin, Mail, X } from "lucide-react"
+import { Github, Linkedin, X } from "lucide-react"
 import Link from "next/link"
 import ContactForm from "./components/contact-form"
 import ProjectCard from "./components/project-card"
@@ -64,12 +64,6 @@ export default function Page() {
                     <Button variant="outline" size="icon" className="bg-white/20 hover:bg-white/30 border-white/50">
                       <X className="h-4 w-4" />
                       <span className="sr-only">X</span>
-                    </Button>
-                  </Link>
-                  <Link href="kawabataryuto@gmail.com">
-                    <Button variant="outline" size="icon" className="bg-white/20 hover:bg-white/30 border-white/50">
-                      <Mail className="h-4 w-4" />
-                      <span className="sr-only">Email</span>
                     </Button>
                   </Link>
                 </div>
@@ -189,7 +183,7 @@ export default function Page() {
                 カリフォルニア州にあるDiablo Valley Collegeに入学しました。この学校は、アメリカのコミュニティカレッジの一つで、
                 四年生大学への編入プログラムを提供している学校です。この学校では、コンピュータサイエンスを専攻し、Associate degreeの取得をしました。
                 カレッジ時代には、学内のクラブ活動に積極的に参加していました。Japanese Associationという日本人団体のメンバーとして、新しく入ってくる新入生のサポートやイベントの運営にも
-                携わっていました。中でも、当時同じ選考を学んでいた友人たちと共に、団体を紹介するWebサイトをチーム開発で作るというプロジェクトを立ち上げ、
+                携わっていました。中でも、当時同じ専攻を学んでいた友人たちと共に、団体を紹介するWebサイトをチーム開発で作るというプロジェクトを立ち上げ、
                 リーダーとしてメンバーを率いた経験は、今後のリーダーシップを発揮する上で大きな経験となりました。"
                 image="/dvc.jpg?height=300&width=400"
               />
